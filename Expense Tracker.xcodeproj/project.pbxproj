@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA9B62812A6AB4D2002AC189 /* ExpenseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B62802A6AB4D2002AC189 /* ExpenseDetail.swift */; };
 		CAD8848D2A62DC3300DBDBC0 /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8848C2A62DC3300DBDBC0 /* Expense_TrackerApp.swift */; };
-		CAD8848F2A62DC3300DBDBC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8848E2A62DC3300DBDBC0 /* ContentView.swift */; };
+		CAD8848F2A62DC3300DBDBC0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8848E2A62DC3300DBDBC0 /* MainView.swift */; };
 		CAD884912A62DC3C00DBDBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD884902A62DC3C00DBDBC0 /* Assets.xcassets */; };
 		CAD884942A62DC3C00DBDBC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD884932A62DC3C00DBDBC0 /* Preview Assets.xcassets */; };
+		CAD8849E2A62DDF900DBDBC0 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8849D2A62DDF900DBDBC0 /* ExpenseView.swift */; };
+		CAD884A02A62DE0800DBDBC0 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8849F2A62DE0800DBDBC0 /* AddExpenseView.swift */; };
+		CAD884A22A62DE1A00DBDBC0 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD884A12A62DE1A00DBDBC0 /* EditExpenseView.swift */; };
+		CAD884A42A62DE2B00DBDBC0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD884A32A62DE2B00DBDBC0 /* SettingsView.swift */; };
+		CAD884A72A62F03500DBDBC0 /* ExpenseTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAD884A52A62F03500DBDBC0 /* ExpenseTracker.xcdatamodeld */; };
+		CAD884A92A62F0F600DBDBC0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD884A82A62F0F600DBDBC0 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA9B62802A6AB4D2002AC189 /* ExpenseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetail.swift; sourceTree = "<group>"; };
 		CAD884892A62DC3300DBDBC0 /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD8848C2A62DC3300DBDBC0 /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
-		CAD8848E2A62DC3300DBDBC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD8848E2A62DC3300DBDBC0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CAD884902A62DC3C00DBDBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD884932A62DC3C00DBDBC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD8849D2A62DDF900DBDBC0 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		CAD8849F2A62DE0800DBDBC0 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		CAD884A12A62DE1A00DBDBC0 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		CAD884A32A62DE2B00DBDBC0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CAD884A62A62F03500DBDBC0 /* ExpenseTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseTracker.xcdatamodel; sourceTree = "<group>"; };
+		CAD884A82A62F0F600DBDBC0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				CAD8848C2A62DC3300DBDBC0 /* Expense_TrackerApp.swift */,
-				CAD8848E2A62DC3300DBDBC0 /* ContentView.swift */,
+				CAD8849A2A62DD6700DBDBC0 /* Views */,
+				CAD8849B2A62DD9400DBDBC0 /* Components */,
+				CAD8849C2A62DDAA00DBDBC0 /* DataModel */,
 				CAD884902A62DC3C00DBDBC0 /* Assets.xcassets */,
 				CAD884922A62DC3C00DBDBC0 /* Preview Content */,
 			);
@@ -65,6 +81,35 @@
 				CAD884932A62DC3C00DBDBC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD8849A2A62DD6700DBDBC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD8848E2A62DC3300DBDBC0 /* MainView.swift */,
+				CAD8849D2A62DDF900DBDBC0 /* ExpenseView.swift */,
+				CAD8849F2A62DE0800DBDBC0 /* AddExpenseView.swift */,
+				CAD884A12A62DE1A00DBDBC0 /* EditExpenseView.swift */,
+				CAD884A32A62DE2B00DBDBC0 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAD8849B2A62DD9400DBDBC0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B62802A6AB4D2002AC189 /* ExpenseDetail.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CAD8849C2A62DDAA00DBDBC0 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAD884A52A62F03500DBDBC0 /* ExpenseTracker.xcdatamodeld */,
+				CAD884A82A62F0F600DBDBC0 /* DataController.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD8848F2A62DC3300DBDBC0 /* ContentView.swift in Sources */,
+				CAD8848F2A62DC3300DBDBC0 /* MainView.swift in Sources */,
+				CAD884A22A62DE1A00DBDBC0 /* EditExpenseView.swift in Sources */,
 				CAD8848D2A62DC3300DBDBC0 /* Expense_TrackerApp.swift in Sources */,
+				CAD884A72A62F03500DBDBC0 /* ExpenseTracker.xcdatamodeld in Sources */,
+				CAD884A42A62DE2B00DBDBC0 /* SettingsView.swift in Sources */,
+				CAD884A92A62F0F600DBDBC0 /* DataController.swift in Sources */,
+				CA9B62812A6AB4D2002AC189 /* ExpenseDetail.swift in Sources */,
+				CAD8849E2A62DDF900DBDBC0 /* ExpenseView.swift in Sources */,
+				CAD884A02A62DE0800DBDBC0 /* AddExpenseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +391,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAD884A52A62F03500DBDBC0 /* ExpenseTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAD884A62A62F03500DBDBC0 /* ExpenseTracker.xcdatamodel */,
+			);
+			currentVersion = CAD884A62A62F03500DBDBC0 /* ExpenseTracker.xcdatamodel */;
+			path = ExpenseTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CAD884812A62DC3300DBDBC0 /* Project object */;
 }
